@@ -1,0 +1,32 @@
+class Element:
+    def __init__(self, value):
+        self.value = value
+        self.next_item = None
+
+class Chain:
+    def __init__(self):
+        self.start = None
+
+    def add(self, value):
+        new_element = Element(value)
+        if not self.start:
+            self.start = new_element
+        else:
+            current_item = self.start
+            while current_item.next_item:
+                current_item = current_item.next_item
+            current_item.next_item = new_element
+
+    def show(self):
+        current_item = self.start
+        while current_item:
+            print(current_item.value, end=" -> ")
+            current_item = current_item.next_item
+        print("None")
+
+# Usage
+my_chain = Chain()
+my_chain.add(10)
+my_chain.add(20)
+my_chain.add(30)
+my_chain.show()
