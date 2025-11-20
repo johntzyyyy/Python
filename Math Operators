@@ -1,0 +1,9 @@
+a = 7
+b = 4
+
+print("Addition:", a + b)         # 7 + 4 = 11
+print("Subtraction:", a - b)      # 7 - 4 = 3
+print("Multiplication:", a * b)   # 7 * 4 = 28
+print("Division:", a / b)         # 7 / 4 = 1.75
+print("Modulo:", a % b)           # 7 % 4 = 3
+print("Exponent:", a ** b)        # 7 ** 4 = 2401
