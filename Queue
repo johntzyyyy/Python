@@ -1,0 +1,6 @@
+from collections import deque
+
+my_queue = deque([10, 20, 30])
+print(my_queue.popleft())
+print(my_queue.popleft())
+print(my_queue)
