@@ -1,0 +1,5 @@
+my_stack = [10, 20, 30]
+
+print(my_stack.pop())  # removes and prints 30
+print(my_stack.pop())  # removes and prints 20
+print(my_stack)        # prints the remaining stack
