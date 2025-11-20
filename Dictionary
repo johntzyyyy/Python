@@ -1,0 +1,6 @@
+student = {"name": "Alice", "age": 22, "course": "Math"}
+student["gwa"] = 1.90  # update GWA
+
+# Loop to print all items
+for key, value in student.items():
+    print(key, ":", value)
