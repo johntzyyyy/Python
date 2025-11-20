@@ -1,0 +1,11 @@
+# Define a lambda function to square a number
+power2 = lambda num: num**2
+
+# Original list of values
+values = [1, 2, 3, 4, 5]
+
+# Apply the lambda function to each value
+squared_values = list(map(power2, values))
+
+# Print the result
+print(squared_values)
